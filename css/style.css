@@ -317,3 +317,12 @@ body {
 	list-style: circle;
 	padding: 10px 30px;	/*上下、左右への余白*/
 }
+
+.performance ol li {
+	list-style-type: none;
+	counter-increment: cnt;
+}
+
+.performance ol li::before {
+	content: "(" counter[cnt] ") ";
+}
