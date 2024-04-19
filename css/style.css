@@ -318,6 +318,10 @@ body {
 	padding: 10px 30px;	/*上下、左右への余白*/
 }
 
+.performance ol {
+	padding: 10px 30px;	
+}
+
 .performance ol li {
 	list-style-type: none;
 	counter-increment: cnt;
