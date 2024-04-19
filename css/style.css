@@ -328,5 +328,8 @@ body {
 }
 
 .performance ol li::before {
-	content: "(" counter[cnt] ") ";
+	content: "(" counter(cnt) ") ";
+    display:inline-block;
+	margin-left:-2em; /* サイトに合せて調整 */
+	width: 2em; /* サイトに合せて調整 */
 }
