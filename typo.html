@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: { equationNumbers: { autoNumber: "AMS" }},
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { matchFontHeight: false },
+    displayAlign: "left",
+    displayIndent: "2em"
+  });
+</script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>誤植等</title>
+<!--
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ここにサイト説明を入れます">
+<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+-->
+<link rel="stylesheet" href="../css/style.css">
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+<div class="title">
+<h1>Typographical Error</h1>
+</div>
+<!--
+<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE SITE"></a></h1>
+-->
+</header>
+
+<nav id="menubar">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="performance.html">Publications</a></li>
+<li><a href="class.html">Class</a></li>
+</ul>
+</nav>
+
+<div id="contents">
+
+<section>
+<!--<p><a href="typo.html">[Japanese]</a><a href="performance_e.html">[English]</a>-->
+<div id="QS15">
+<h2><a href="performance.html#QS15">ナンスケの量子アニーリングを用いた解法について</a></h2>
+<p>場所：予稿p.5 左 (2)の式$H_2$</p>
+
+<p>修正前：</p>
+\[H_2 = \sum_{(i,j) \notin W \setminus cross} \left( X_{(i,j)} - 1 \right)^2\]
+
+<p>修正後：</p>
+\[H_2 = \sum_{(i,j) \in W \setminus cross} \left( X_{(i,j)} - 1 \right)^2\]
+</div>
+</section>
+
+</body>
+</html>
