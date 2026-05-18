@@ -101,7 +101,7 @@ header {
 	margin-bottom: 20px;
 	padding: 8px 20px;	/*上下、左右への余白*/
 	color: #fff;	/*文字の色*/
-	background: #fff;	/*背景色*/
+	background: #7B4045;	/*背景色*/
 	border: 1px solid #412c25;	/*枠線の幅、線種、色*/
 	border-radius: 10px;	/*角を丸くする指定。この１行を削除すれば角丸がなくなります。*/
 }
@@ -333,4 +333,51 @@ body {
     	display:inline-block;
 	margin-left:-2em; /* サイトに合せて調整 */
 	width: 2em; /* サイトに合せて調整 */
+}
+
+/*ページトップへ戻る*/
+#page_top{
+  width: 90px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  border: 3px solid #3f98ef;
+  border-radius: 15px;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 90px;
+  height: 60px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f062';
+  font-size: 25px;
+  color: #985E43;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -25px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 13px;
+  color: #985E43;
+  position: absolute;
+  top: 38px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
 }
