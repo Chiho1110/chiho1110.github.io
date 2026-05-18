@@ -354,7 +354,6 @@ body {
   text-decoration: none;
 }
 #page_top a::before{
-  font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   content: '\f062';
   font-size: 25px;
