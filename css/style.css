@@ -92,7 +92,7 @@ header {
 	margin-bottom: 20px;
 	color: #fff;		/*文字色*/
 	padding: 10px 20px;	/*上下、左右への余白*/
-	background: #985E43;	/*背景色*/
+	background: #643E2E;	/*背景色*/
 	border-radius: 10px;	/*角を丸くする指定。この１行を削除すれば角丸がなくなります。*/
 }
 /*コンテンツのh3タグの設定*/
@@ -101,7 +101,7 @@ header {
 	margin-bottom: 20px;
 	padding: 8px 20px;	/*上下、左右への余白*/
 	color: #fff;	/*文字の色*/
-	background: #7B4045;	/*背景色*/
+	background: #705E45;	/*背景色*/
 	border: 1px solid #412c25;	/*枠線の幅、線種、色*/
 	border-radius: 10px;	/*角を丸くする指定。この１行を削除すれば角丸がなくなります。*/
 }
